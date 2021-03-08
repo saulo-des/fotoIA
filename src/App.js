@@ -68,7 +68,7 @@ function App() {
         <label>Etnia:</label>
         <select onchange={e => setEtnia(e.target.value)}>
           <option value="">Todas</option>
-          <option value="white">Branca</option>
+          <option value="white">Branca</option> 
           <option value="latino">Latina</option>
           <option value="asian">Asoática</option>
           <option value="black">Negra</option>
